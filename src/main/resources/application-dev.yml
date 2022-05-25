@@ -1,0 +1,5 @@
+file:
+  #用http，不要用https
+  staticPath: http://localhost:8777
+  staticPatternPath: /upimages/**
+  uploadFolder: D:/IDEA_project/tempFile/

@@ -1,0 +1,17 @@
+server:
+  port: 8777
+
+spring:
+  freemarker:
+    suffix: .html
+    cache: false
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      #表示是否开启文件上传支持，默认为 true
+      enabled: true
+      #表示上传的单个文件的最大大小，默认为 1MB
+      max-file-size: 5MB
+      #表示多文件上传时文件的总大小，默认为 10MB
+      max-request-size: 10MB
